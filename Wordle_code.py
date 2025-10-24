@@ -61,7 +61,7 @@ while True:
                 guesses += 1
 
 # Below this, is the code used for finding out if
-# u got the word or not and for finding green and yellow.
+# you got the word or not and for finding green and yellow.
 
         if first == word1_guess:
             print(word1_guess,"correct")
@@ -95,6 +95,7 @@ while True:
 
     except IndexError:
         print('Guess must be 5 characters long.')
+
 
 
 
